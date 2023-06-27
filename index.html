@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Métodos</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="caixinha">
+                <div class="caixinha_caixa">
+                    <h2>Function</h2>
+                    <p>Chama uma função que mostra uma imagem</p>
+                    <button onclick="mostrarImagem()">Mostrar</button>
+                    <img id="img" src="">
+                </div>
+            </div>
+            <div class="caixinha">
+                <div class="caixinha_caixa">
+                    <h2>Object</h2>
+                    <p>Digite um nome de objeto:</p>
+                    <input type="text" id="nomeInput">
+                    <p>Digite um valor:</p>
+                    <input type="text" id="valorInput">
+                    <button onclick="criarObjeto()">Criar Objeto</button>
+                    <p class="saida" id="resultado"></p>
+                </div>
+            </div>
+            <div class="caixinha">
+                <div class="caixinha_caixa">
+                    <h2>Map</h2>
+                    <p>Digite uma lista de números separados por vírgula:</p>
+                    <form><input type="text" id="numerosInputMap"></form>
+                    <button onclick="aplicarMap()">Aplicar Map</button>
+                    <p class="saida" id="resultadoMap"></p>
+                </div>
+            </div>
+            <div class="caixinha">
+                <div class="caixinha_caixa">
+                    <h2>ForEach</h2>
+                    <p>Digite uma lista de nomes de gatinhos separados por vírgula:</p>
+                    <form><input type="text" id="gatinhosInputForEach"></form>
+                    <button onclick="aplicarForEach()">Aplicar ForEach</button>
+                    <p class="saida" id="resultadoForEach"></p>
+                </div>
+            </div>
+            <div class="caixinha">
+                <div class="caixinha_caixa">
+                    <h2 class="filter">Find</h2>
+                    <p>Digite uma lista de números separados por vírgula:</p>
+                    <input type="text" id="numerosInput">
+                    <button onclick="encontrarMaiorNumero()">Encontrar</button>
+                    <p class="saida" id="resultado4"></p>
+                </div>
+            </div>
+            <div class="caixinha">
+                <div class="caixinha_caixa">
+                    <h2>Filter</h2>
+                    <p>Digite uma lista de pesos dos gatinhos separados por vírgula:</p>
+                    <form><input type="text" id="pesosGatinhosInputFilter"></form>
+                    <button onclick="aplicarFilter()">Aplicar Filter</button>
+                    <p class="saida" id="resultadoFilter"></p>
+                </div>
+
+            </div>
+            <div class="caixinha">
+                <div class="caixinha_caixa">
+                    <h2>Reduce</h2>
+                    <p>Digite uma lista de números separados por vírgula:</p>
+                    <form><input type="text" id="numerosInputReduce"></form>
+                    <button onclick="aplicarReduce()">Aplicar Reduce</button>
+                    <p class="saida" id="resultadoReduce"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
